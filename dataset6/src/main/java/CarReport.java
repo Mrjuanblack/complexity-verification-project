@@ -377,6 +377,7 @@ public class CarReport {
         }
     }
 
+    @SuppressWarnings("all")
     private static class R {
         public static Save string;
         public static R id;
@@ -394,6 +395,7 @@ public class CarReport {
     private class Bundle {
     }
 
+    @SuppressWarnings("all")
     private static class ViewGroup {
         public static class LayoutParams {
             public static final Object MATCH_PARENT = null;
@@ -410,6 +412,7 @@ public class CarReport {
         }
     }
 
+    @SuppressWarnings("all")
     private static class View {
         public static final Object GONE = null;
         public static final Object INVISIBLE = null;
@@ -474,6 +477,7 @@ public class CarReport {
         }
     }
 
+    @SuppressWarnings("all")
     private static class Activity {
         public static final Object RESULT_CANCELED = null;
 
@@ -534,6 +538,7 @@ public class CarReport {
         }
     }
 
+    @SuppressWarnings("all")
     private static class CarColumns {
         public static final Object ALL_COLUMNS = null;
         public static final String NAME = null;
@@ -642,6 +647,7 @@ public class CarReport {
     private class ReportChartOptions {
     }
 
+    @SuppressWarnings("all")
     private class Rect {
         public Object left;
         public Object top;

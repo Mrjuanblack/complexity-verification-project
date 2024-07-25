@@ -372,6 +372,8 @@ public class Antlr4Master {
         }
     }
 
+
+    @SuppressWarnings("all")
     public static class ATNConfigSet implements Set<ATNConfig> {
         public boolean hasSemanticContext;
 
@@ -400,6 +402,7 @@ public class Antlr4Master {
             return new Object[0];
         }
 
+        @SuppressWarnings("all")
         @Override
         public <T> T[] toArray(T[] a) {
             throw new Error();
@@ -449,6 +452,7 @@ public class Antlr4Master {
         }
     }
 
+    @SuppressWarnings("all")
     private static class PredictionMode {
         public static final PredictionMode SLL = null;
     }
@@ -459,6 +463,7 @@ public class Antlr4Master {
         }
     }
 
+    @SuppressWarnings("all")
     private static class SemanticContext {
         public static final Object NONE = null;
     }

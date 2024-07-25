@@ -245,7 +245,8 @@ public class K9 {
     private SmtpTransport startServerAndCreateSmtpTransport(MockSmtpServer server, Object xoauth2, Object none) {
         throw new Error();
     }
-
+    
+    @SuppressWarnings("all")
     private static class Context {
         public static final Object CONNECTIVITY_SERVICE = null;
 
@@ -412,10 +413,12 @@ public class K9 {
         public static final String STATUS_400_RESPONSE = "";
     }
 
+    @SuppressWarnings("all")
     private static class ConnectionSecurity {
         public static final Object NONE = null;
     }
 
+    @SuppressWarnings("all")
     private static class AuthType {
         public static final Object XOAUTH2 = null;
     }

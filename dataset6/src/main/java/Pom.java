@@ -332,6 +332,7 @@ public class Pom {
         throw new Error();
     }
 
+    @SuppressWarnings("all")
     private static class ReloadThread {
         public Set<ViewJob> reloadQueue;
 
@@ -380,6 +381,7 @@ public class Pom {
             throw new Error();
         }
 
+        @SuppressWarnings("all")
         @Override
         public int size() {
             return 0;
@@ -440,6 +442,7 @@ public class Pom {
             throw new Error();
         }
 
+        @SuppressWarnings("all")
         @Override
         public boolean equals(Object o) {
             return false;

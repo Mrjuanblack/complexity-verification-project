@@ -348,6 +348,7 @@ private ArrayList<ContentProviderOperation> getContentProviderOperationsForCreat
     private class StickyListHeadersAdapter {
     }
 
+    @SuppressWarnings("all")
     private static class TransactionList {
         public static final Object KEY_FILTER = null;
 
@@ -366,6 +367,7 @@ private ArrayList<ContentProviderOperation> getContentProviderOperationsForCreat
         }
     }
 
+    @SuppressWarnings("all")
     private static class TaskExecutionFragment {
         public static final Object TASK_SPLIT = null;
 
@@ -374,6 +376,7 @@ private ArrayList<ContentProviderOperation> getContentProviderOperationsForCreat
         }
     }
 
+    @SuppressWarnings("all")
     private static class ProtectionDelegate {
         public static final Dummy ASYNC_TAG = null;
         public static final Dummy PROGRESS_TAG = null;
@@ -385,6 +388,7 @@ private ArrayList<ContentProviderOperation> getContentProviderOperationsForCreat
         }
     }
 
+    @SuppressWarnings("all")
     private static class R {
         public static Dummy string;
     }
@@ -523,10 +527,12 @@ private ArrayList<ContentProviderOperation> getContentProviderOperationsForCreat
         public Dummy referenceNumber;
         public Dummy crStatus;
 
+        @SuppressWarnings("all")
         public Transaction(Dummy id, Long amount) {
 
         }
 
+        @SuppressWarnings("all")
         public Transaction() {
 
         }
@@ -595,6 +601,7 @@ private ArrayList<ContentProviderOperation> getContentProviderOperationsForCreat
         }
     }
 
+    @SuppressWarnings("all")
     public static class Dummy implements Comparable {
         public Dummy progress_dialog_printing;
 

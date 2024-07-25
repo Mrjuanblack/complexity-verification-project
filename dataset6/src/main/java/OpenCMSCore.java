@@ -600,7 +600,8 @@ public class OpenCMSCore {
             throw new Error();
         }
     }
-
+    
+    @SuppressWarnings("all")
     private static class CmsHtmlIconButtonStyleEnum {
         public static final Object SMALL_ICON_TEXT = null;
     }

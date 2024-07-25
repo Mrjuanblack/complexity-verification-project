@@ -252,10 +252,12 @@ public class SpringBatch {
     }
     //SNIPPETS_END
 
+    @SuppressWarnings("all")
     private ItmWriter createItemWriter() {
         return null;
     }
 
+    @SuppressWarnings("all")
     private Resource getInputResource(String s) {
         return null;
     }
@@ -268,6 +270,7 @@ public class SpringBatch {
 
     }
 
+    @SuppressWarnings("all")
     private Returner when(Connection connection) {
         return null;
     }
@@ -280,10 +283,12 @@ public class SpringBatch {
 
     }
 
+    @SuppressWarnings("all")
     private JobExecution runJob(String jsrUniqueInstanceTests, Properties properties, long l) {
         return null;
     }
 
+    @SuppressWarnings("all")
     private class JobExecution {
         public String getExitStatus() {
             return null;
@@ -320,6 +325,7 @@ public class SpringBatch {
         }
     }
 
+    @SuppressWarnings("all")
     private class Message {
         public Object getText() {
             return null;
@@ -340,6 +346,7 @@ public class SpringBatch {
     private class TextMessage extends Message {
     }
 
+    @SuppressWarnings("all")
     private class Treese {
         public void add(Object text) {
 
@@ -376,6 +383,7 @@ public class SpringBatch {
         }
     }
 
+    @SuppressWarnings("all")
     private class ExtendedConnectionDataSourceProxy {
         public ExtendedConnectionDataSourceProxy(DataSource ds) {
         }

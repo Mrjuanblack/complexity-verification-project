@@ -347,12 +347,14 @@ public class HibernateORM {
             super();
         }
     }
-
+    
+    @SuppressWarnings("all")
     private static class StandardBasicTypes {
         public static final Object STRING = null;
         public static final Object TIMESTAMP = null;
     }
 
+    @SuppressWarnings("all")
     public static class Environment {
         public static final Object USE_STREAMS_FOR_BINARY = null;
         public static final Object STATEMENT_BATCH_SIZE = null;

@@ -347,6 +347,7 @@ public class Phoenix {
         }
     }
 
+    @SuppressWarnings("all")
     private static class MutationCode {
         public static final Object SCHEMA_NOT_FOUND = null;
         public static final Object TABLES_EXIST_ON_SCHEMA = null;
@@ -416,6 +417,7 @@ public class Phoenix {
         }
     }
 
+    @SuppressWarnings("all")
     private static class Dummy {
         public static final Dummy INSTANCE = null;
 
@@ -464,6 +466,7 @@ public class Phoenix {
         }
     }
 
+    @SuppressWarnings("all")
     private static class FlumeConstants {
         public static final Object CONFIG_TABLE_DDL = null;
         public static final Object CONFIG_TABLE = null;
@@ -509,11 +512,13 @@ public class Phoenix {
         }
     }
 
+    @SuppressWarnings("all")
     private static class Status {
         public static final Status READY = null;
         public static final Status BACKOFF = null;
     }
 
+    @SuppressWarnings("all")
     private static class TimeUnit {
         public static final Object NANOSECONDS = null;
         public static final HibernateORM.Environment SECONDS = null;
