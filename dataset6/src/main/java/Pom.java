@@ -23,13 +23,18 @@ public class Pom {
     private static final String HEALTH_41_TO_60_IMG = "health-40to59.png";
     private static final String HEALTH_21_TO_40_IMG = "health-20to39.png";
     private static final String HEALTH_0_TO_20_IMG = "health-00to19.png";
+    // @SuppressWarnings("uninitialized")
     private String iconClassName;
     protected transient /*almost final*/ RunMap<RunT> runs = new RunMap<RunT>();
     private transient boolean notLoaded = true;
     private transient long nextUpdate = 0;
+    // @SuppressWarnings("uninitialized")
     private transient volatile boolean reloadingInProgress;
+    // @SuppressWarnings("uninitialized")
     private static ReloadThread reloadThread;
+    // @SuppressWarnings("uninitialized")
     private static org.jruby.ext.posix.POSIX jnaPosix;
+    // @SuppressWarnings("uninitialized")
     private boolean ignoreBase;
 
     //ADDED BY KOBI

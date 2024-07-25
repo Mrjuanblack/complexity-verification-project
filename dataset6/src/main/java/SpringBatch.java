@@ -15,12 +15,19 @@ import java.sql.SQLException;
 import java.util.concurrent.TimeUnit;
 
 public class SpringBatch {
+    // @SuppressWarnings("uninitialized")
     private Bean container;
+    // @SuppressWarnings("uninitialized")
     private Treese processed;
+    // @SuppressWarnings("uninitialized")
     private Treese recovered;
+    // @SuppressWarnings("uninitialized")
     private Treese jmsTemplate;
+    // @SuppressWarnings("uninitialized")
     private FlatFileItemReader<Object> reader;
+    // @SuppressWarnings("uninitialized")
     private ExecutionContext executionContext;
+    // @SuppressWarnings("uninitialized")
     private ItmWriter writer;
 
     public void runAll() {

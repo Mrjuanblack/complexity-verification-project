@@ -40,13 +40,15 @@ public class ModelPerformanceChart extends JPanel implements Serializable, BeanC
 
   /** for serialization */
   private static final long serialVersionUID = -4602034200071195924L;
-
+  // @SuppressWarnings("uninitialized")
   protected transient JFrame m_popupFrame;
 
   protected boolean m_framePoppedUp = false;
-
+  // @SuppressWarnings("uninitialized")
   private transient VisualizePanel m_visPanel;
+  // @SuppressWarnings("uninitialized")
   private Object m_masterPlot;
+  // @SuppressWarnings("uninitialized")
   private Object m_offscreenPlotData;
 
   //ADDED BY KOBI

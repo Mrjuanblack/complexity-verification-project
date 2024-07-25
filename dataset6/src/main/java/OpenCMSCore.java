@@ -6,10 +6,15 @@ import java.util.List;
 public class OpenCMSCore {
 
     private CmsFileBuffer m_buffer = new CmsFileBuffer();
+    // @SuppressWarnings("uninitialized")
     private boolean m_exitCalled;
+    // @SuppressWarnings("uninitialized")
     private boolean m_interactive;
+    // @SuppressWarnings("uninitialized")
     private boolean m_echo;
+    // @SuppressWarnings("uninitialized")
     private OpenCMSWriter m_out;
+    // @SuppressWarnings("uninitialized")
     private PrintStream m_err;
 
     //ADDED BY KOBI
@@ -600,7 +605,7 @@ public class OpenCMSCore {
             throw new Error();
         }
     }
-    
+
     @SuppressWarnings("all")
     private static class CmsHtmlIconButtonStyleEnum {
         public static final Object SMALL_ICON_TEXT = null;

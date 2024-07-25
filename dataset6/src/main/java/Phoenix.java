@@ -27,18 +27,31 @@ public class Phoenix {
     private static final String DEFAULT_COLUMNS_DELIMITER = "";
     private static final org.apache.commons.cli.Option TABLE_NAME_OPT = new org.apache.commons.cli.Option("", "");
     private static final org.apache.commons.cli.Option HELP_OPT = new org.apache.commons.cli.Option("", "");
+    // @SuppressWarnings("uninitialized")
     private Dummy env;
+    // @SuppressWarnings("uninitialized")
     private Dummy PLong;
+    // @SuppressWarnings("uninitialized")
     private String createTableDdl;
+    // @SuppressWarnings("uninitialized")
     private String fullTableName;
+    // @SuppressWarnings("uninitialized")
     private int batchSize;
+    // @SuppressWarnings("uninitialized")
     private Object jdbcUrl;
+    // @SuppressWarnings("uninitialized")
     private Antlr4Master.ATNConfigSet colNames;
+    // @SuppressWarnings("uninitialized")
     private Antlr4Master.ATNConfigSet headers;
+    // @SuppressWarnings("uninitialized")
     private Object keyGenerator;
+    // @SuppressWarnings("uninitialized")
     private boolean autoGenerateKey;
+    // @SuppressWarnings("uninitialized")
     private Pom.POSIXHandler logger;
+    // @SuppressWarnings("uninitialized")
     private Dummy sinkCounter;
+    // @SuppressWarnings("uninitialized")
     private Dummy serializer;
 
     //ADDED BY KOBI

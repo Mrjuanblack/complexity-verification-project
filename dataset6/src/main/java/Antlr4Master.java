@@ -14,15 +14,25 @@ import java.util.*;
 public class Antlr4Master {
 
     private static final String LEXER_START_RULE_NAME = "";
+    // @SuppressWarnings("uninitialized")
     private Logger log;
+    // @SuppressWarnings("uninitialized")
     private String sourceDirectory;
+    // @SuppressWarnings("uninitialized")
     private Grammar grammars;
+    // @SuppressWarnings("uninitialized")
     private String grammarName;
+    // @SuppressWarnings("uninitialized")
     private String startRuleName;
+    // @SuppressWarnings("uninitialized")
     private String encoding;
+    // @SuppressWarnings("uninitialized")
     private List<String> inputFiles;
+    // @SuppressWarnings("uninitialized")
     private int n;
+    // @SuppressWarnings("uninitialized")
     private T[][] buckets;
+    // @SuppressWarnings("uninitialized")
     private Comparador comparator;
 
     //ADDED BY KOBI

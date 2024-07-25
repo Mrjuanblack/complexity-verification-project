@@ -53,6 +53,7 @@ public class GeneratorPropertyIteratorPanel extends JPanel implements
   protected GenericArrayEditor m_ArrayEditor = new GenericArrayEditor();
 
   /** The experiment this all applies to */
+  // @SuppressWarnings("uninitialized")
   protected Experiment m_Exp;
 
   /**

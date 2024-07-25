@@ -4,12 +4,19 @@ import java.sql.*;
 
 public class HibernateORM {
     private final String DEFAULT_BATCH_SIZE = "null";
+    // @SuppressWarnings("uninitialized")
     private Object targetedPersister;
+    // @SuppressWarnings("uninitialized")
     private Update[] updates;
+    // @SuppressWarnings("uninitialized")
     private String idInsertSelect;
+    // @SuppressWarnings("uninitialized")
     private ParameterSpecification[] idSelectParameterSpecifications;
+    // @SuppressWarnings("uninitialized")
     private ParameterSpecification[][] assignmentParameterSpecifications;
+    // @SuppressWarnings("uninitialized")
     private Update queryString;
+    // @SuppressWarnings("uninitialized")
     private Object dialect;
 
     //ADDED BY KOBI
@@ -347,7 +354,7 @@ public class HibernateORM {
             super();
         }
     }
-    
+
     @SuppressWarnings("all")
     private static class StandardBasicTypes {
         public static final Object STRING = null;

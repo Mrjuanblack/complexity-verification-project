@@ -12,13 +12,20 @@ public class MyExpenses {
     private static final String KEY_ACCOUNTID = "";
     private static final Object TASK_PRINT = new Object();
     private static final Dummy KEY_ROWID = new Dummy();
+    // @SuppressWarnings("uninitialized")
     private StickyListHeadersAdapter mDrawerListAdapter;
     private long mAccountId = 0;
+    // @SuppressWarnings("uninitialized")
     private Dummy mList;
+    // @SuppressWarnings("uninitialized")
     private Dummy payeeToId;
+    // @SuppressWarnings("uninitialized")
     private Font currentFont;
+    // @SuppressWarnings("uninitialized")
     private boolean mAreHeadersSticky;
+    // @SuppressWarnings("uninitialized")
     private Dummy mAdapter;
+    // @SuppressWarnings("uninitialized")
     private Dummy[] files;
 
     public enum ContribFeature {

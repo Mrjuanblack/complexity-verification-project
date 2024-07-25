@@ -40,9 +40,13 @@ import javax.swing.JPanel;
  */
 public class ClassifierPerformanceEvaluatorCustomizer extends JPanel {
 
+  // @SuppressWarnings("uninitialized")
   private ModifyListener m_modifyListener;
+  // @SuppressWarnings("uninitialized")
   private List<String> m_evaluationMetrics;
+  // @SuppressWarnings("uninitialized")
   private ModifyListener m_cpe;
+  // @SuppressWarnings("uninitialized")
   private ModifyListener m_parent;
 
   //ADDED BY KOBI

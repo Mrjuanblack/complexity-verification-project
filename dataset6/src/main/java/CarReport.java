@@ -10,26 +10,47 @@ public class CarReport {
 
     private static final int REQUEST_ADD_DATA = 0;
     private static final Object TAG = new Object();
+    // @SuppressWarnings("uninitialized")
     private Save mFuelType;
+    // @SuppressWarnings("uninitialized")
     private Save mEdtCategory;
+    // @SuppressWarnings("uninitialized")
     private Save mEdtName;
+    // @SuppressWarnings("uninitialized")
     private List<Object> mOtherFuelTypeNames;
+    // @SuppressWarnings("uninitialized")
     private Button mBtnOk;
+    // @SuppressWarnings("uninitialized")
     private View mTxtTrustCertificateDescription;
+    // @SuppressWarnings("uninitialized")
     private View mTxtTrustCertificate;
+    // @SuppressWarnings("uninitialized")
     private View mChkTrustCertificate;
+    // @SuppressWarnings("uninitialized")
     private EditText mEdtUserName;
+    // @SuppressWarnings("uninitialized")
     private EditText mEdtPassword;
+    // @SuppressWarnings("uninitialized")
     private EditText mEdtUrl;
+    // @SuppressWarnings("uninitialized")
     private AnimatorSet mFullScreenChartAnimator;
+    // @SuppressWarnings("uninitialized")
     private ComboLineColumnChartView mCurrentFullScreenChart;
+    // @SuppressWarnings("uninitialized")
     private View mFullScreenChart;
+    // @SuppressWarnings("uninitialized")
     private Rect mCurrentFullScreenStartBounds;
+    // @SuppressWarnings("uninitialized")
     private float mCurrentFullScreenStartScaleX;
+    // @SuppressWarnings("uninitialized")
     private float mCurrentFullScreenStartScaleY;
+    // @SuppressWarnings("uninitialized")
     private ComboLineColumnChartView mFullScreenChartHolder;
+    // @SuppressWarnings("uninitialized")
     private View android;
+    // @SuppressWarnings("uninitialized")
     private ComboLineColumnChartView mAppBarLayout;
+    // @SuppressWarnings("uninitialized")
     private View mDbxClient;
 
     //ADDED BY KOBI
